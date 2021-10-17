@@ -3,4 +3,9 @@ Keras==2.4.3
 numpy==1.18.5
 opencv_python==4.4.0.46
 opencv-contrib-python-headless
-temsorflow==3.1.1
+tensorflow==3.1.1
+gunicorn==20.1.0
+Keras==2.4.3
+Keras-Preprocessing==1.1.2
+numpy==1.19.5
+Werkzeug==1.0.0
