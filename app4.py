@@ -4,7 +4,7 @@ import numpy as np
 from keras.models import load_model
 
 def app():     
-    model = load_model('covid.h5')
+    model = load_model('https://drive.google.com/file/d/11cEM3MWCPlgm3TSqlQiqDMYJftRyr-An/view?usp=sharing')
     CLASS_NAMES = ['negative', 'positive']
     st.title("Covid 19 Classification")
     st.write("Welcome")
