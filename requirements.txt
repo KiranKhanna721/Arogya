@@ -5,3 +5,4 @@ opencv_python==4.4.0.46
 opencv-contrib-python-headless
 gunicorn==20.1.0
 Keras-Preprocessing==1.1.2
+tensorflow==2.6.0
