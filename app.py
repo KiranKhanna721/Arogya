@@ -1,7 +1,6 @@
 #Library imports
 import numpy as np
 import streamlit as st
-import cv2
 from keras.models import load_model
 import app5
 import app2
