@@ -4,7 +4,7 @@ import numpy as np
 from keras.models import load_model
 
 def app():      
-    model = load_model("need.h5")
+    model = load_model("nee.h5")
     CLASS_NAMES = ['battery', 'biological', 'brown-glass', 'cardboard', 'clothes', 'green-glass', 'metal', 'paper', 'plastic', 'shoes', 'trash', 'white-glass']
     st.title("Garbage Classification")
     st.write("Welcome")
