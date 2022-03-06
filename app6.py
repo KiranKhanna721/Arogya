@@ -3,7 +3,7 @@ import cv2
 import numpy as np 
 from keras.models import load_model
 
-def app():                                                                   
+def app()                                                       
     model = load_model('cancer.h5')
     CLASS_NAMES = ['High squamous intra-epithelial lesion', 'Low squamous intra-epithelial lesion', 'Negative for Intraepithelial malignancy', 'Squamous cell carcinoma']
     st.title("Diagnosis of pre-cancerous and cervical cancer lesions")
